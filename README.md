@@ -33,3 +33,15 @@ If conversion is successful, the original file(s) will be deleted.
 ## Dependancies:
 
 The script requires "zip" and "unrar". Please ensure they are installed before trying to run the script. A simple online search will help you with this. At a later stage I will build an install and update functionality which will do this automatically.
+
+## IMPORTANT NOTE
+
+Currently, the tool uses a fixed location for the temp files and the files list. If you decide to run this two in two sessions, they will conflict and you will have a bad day. At a later stage, I will add support to allow more than one session to be run at a time, for all those hardcore users.
+
+## ROAD MAP
+
+I will eventually add support for more formats and in different directions. Right now, I had 10 000 + files, and some were cbr and some were cbz, but my device has issues with cbr, probably because RAR is a closed patent. So I wanted to convert all my cbr files to cbz, for my own needs.
+
+## Contact the developer.
+
+I never check my email. If you would like to get hold of me, send me a DM on Reddit u/thisiszeev
