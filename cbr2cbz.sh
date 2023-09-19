@@ -2,7 +2,7 @@
 
 function Help {
   echo "cbr2cbz Conversion Tool"
-  echo "Version 0.4"
+  echo "Version 0.5"
   echo "https://git.zaks.web.za/thisiszeev/cbr2cbz"
   echo
   echo 'Usage: cbr2cbz single "filename.cbr"'
@@ -49,6 +49,7 @@ function Convert {
 }
 
 function BatchRun {
+  rm -R "/tmp/cbr2cbz"
   mkdir -p "/tmp/cbr2cbz"
   find . -type f -name "*.cbr" > /tmp/cbr2cbz.list
   files=$( cat /tmp/cbr2cbz.list | wc -l )
@@ -79,6 +80,7 @@ then
 	echo "If filename has spaces or special characters please pass it within quotes."
 	Help
     fi
+    rm -R "/tmp/cbr2cbz"
     cbr=$2
     size=$(( ${#cbr} - 1 ))
     cbz="${cbr:0:$size}z"
