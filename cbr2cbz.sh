@@ -2,7 +2,7 @@
 
 function Help {
   echo "cbr2cbz Conversion Tool"
-  echo "Version 0.1"
+  echo "Version 0.2"
   echo "https://git.zaks.web.za/thisiszeev/cbr2cbz"
   echo
   echo 'Usage: cbr2cbz single "filename.cbr"'
@@ -79,7 +79,7 @@ then
 	echo "If filename has spaces or special characters please pass it within quotes."
 	Help
     fi
-    cbr=$1
+    cbr=$2
     size=$(( ${#cbr} - 1 ))
     cbz="${cbr:0:$size}z"
     mkdir -p "/tmp/cbr2cbz"
