@@ -2,7 +2,7 @@
 
 function Help {
   echo "cbr2cbz Conversion Tool"
-  echo "Version 0.3"
+  echo "Version 0.4"
   echo "https://git.zaks.web.za/thisiszeev/cbr2cbz"
   echo
   echo 'Usage: cbr2cbz single "filename.cbr"'
@@ -18,7 +18,7 @@ function Help {
 
 function Convert {
   echo "Converting: $cbr to $cbz"
-  echo "Files remaining: $files"
+  echo "Files remaining: $((files--))"
   echo
   sleep 2s
   unrar e "$cbr" /tmp/cbr2cbz
