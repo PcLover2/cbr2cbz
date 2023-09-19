@@ -2,7 +2,7 @@
 
 function Help {
   echo "cbr2cbz Conversion Tool"
-  echo "Version 0.2"
+  echo "Version 0.3"
   echo "https://git.zaks.web.za/thisiszeev/cbr2cbz"
   echo
   echo 'Usage: cbr2cbz single "filename.cbr"'
@@ -51,7 +51,7 @@ function Convert {
 function BatchRun {
   mkdir -p "/tmp/cbr2cbz"
   find . -type f -name "*.cbr" > /tmp/cbr2cbz.list
-  files=$(( cat /tmp/cbr2cbz.list | wc -l ))
+  files=$( cat /tmp/cbr2cbz.list | wc -l )
   while read -r filename
   do
     cbr="$filename"
