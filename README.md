@@ -45,3 +45,5 @@ I will eventually add support for more formats and in different directions. Righ
 ## Contact the developer.
 
 I never check my email. If you would like to get hold of me, send me a DM on Reddit u/thisiszeev
+
+I am looking for someone to port this to Windows Powershell. Contact me on Reddit if you are interested?
