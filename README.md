@@ -20,3 +20,7 @@ Usage: cbr2cbz help
         Display this text.
 
 Warning: If conversion is successful, the original file(s) will be deleted.
+
+
+Dependancies:
+  The script requires "zip" and "unrar". Please ensure they are installed before trying to run the script. A simple online search will help you with this. At a later stage I will build an install and update functionality which will do this automatically.
