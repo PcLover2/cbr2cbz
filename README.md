@@ -40,6 +40,8 @@ Currently, the tool uses a fixed location for the temp files and the files list.
 
 ## ROAD MAP
 
+I am currently trying to add the support for a log file and statistics. Having a few issues, so my most recent and non-working commit is in the unstable folder.
+
 I will eventually add support for more formats and in different directions. Right now, I had 10 000 + files, and some were cbr and some were cbz, but my device has issues with cbr, probably because RAR is a closed patent. So I wanted to convert all my cbr files to cbz, for my own needs.
 
 ## Contact the developer.
