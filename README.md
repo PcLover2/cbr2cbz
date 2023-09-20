@@ -6,7 +6,7 @@ BASH tool to convert cbr files to cbz files either in batch or one by one.
 
 ### STABLE VERSION
 
-$ wget https://git.zaks.web.za/thisiszeev/cbr2cbz/raw/commit/c8690afa3b3b57e209852ba147ab5231a0563f96/cbr2cbz.sh
+$ wget "https://git.zaks.web.za/thisiszeev/cbr2cbz/raw/commit/c8690afa3b3b57e209852ba147ab5231a0563f96/cbr2cbz.sh"
 
 $ chmod +x cbr2cbz.sh
 
