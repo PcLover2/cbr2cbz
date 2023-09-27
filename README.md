@@ -42,6 +42,25 @@ Currently, the tool uses a fixed location for the temp files and the files list.
 
 I am currently trying to add the support for a log file and statistics. Having a few issues, so my most recent and non-working commit is in the unstable folder.
 
+# Donations
+
+Please consider making me small donation. Even though my scripts are open source and free to use, I still need to eat. And the occasional bottle of wine also goes down well.
+
+- $5 buys me a cup of coffee
+- $10 buys me a nice burger
+- $20 buys me a bottle of wine
+- Anything above that will be awesome as well.
+
+You can send me a donation via Paypal https://www.paypal.com/paypalme/thisiszeev
+
+Drop me a message on Reddit if you do make a donation. u/thisiszeev
+
+Support is only offered freely to those who donate $20 or more.
+
+Your donation contributes to further development.
+
+If you need a custom script, contact me on Reddit for pricing.
+
 I will eventually add support for more formats and in different directions. Right now, I had 10 000 + files, and some were cbr and some were cbz, but my device has issues with cbr, probably because RAR is a closed patent. So I wanted to convert all my cbr files to cbz, for my own needs.
 
 ## Contact the developer.
