@@ -42,6 +42,12 @@ Currently, the tool uses a fixed location for the temp files and the files list.
 
 I am currently trying to add the support for a log file and statistics. Having a few issues, so my most recent and non-working commit is in the unstable folder.
 
+## Contact the developer.
+
+I never check my email. If you would like to get hold of me, send me a DM on Reddit u/thisiszeev
+
+I am looking for someone to port this to Windows Powershell. Contact me on Reddit if you are interested?
+
 # Donations
 
 Please consider making me small donation. Even though my scripts are open source and free to use, I still need to eat. And the occasional bottle of wine also goes down well.
@@ -62,9 +68,3 @@ Your donation contributes to further development.
 If you need a custom script, contact me on Reddit for pricing.
 
 I will eventually add support for more formats and in different directions. Right now, I had 10 000 + files, and some were cbr and some were cbz, but my device has issues with cbr, probably because RAR is a closed patent. So I wanted to convert all my cbr files to cbz, for my own needs.
-
-## Contact the developer.
-
-I never check my email. If you would like to get hold of me, send me a DM on Reddit u/thisiszeev
-
-I am looking for someone to port this to Windows Powershell. Contact me on Reddit if you are interested?
