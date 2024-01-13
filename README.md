@@ -18,11 +18,11 @@ That's it.
 
 ### Convert a single file.
 ```shell
-cbr2cbz single "filename.cbr"
+sudo cbr2cbz single "filename.cbr"
 ```
 ### Convert all files recursively from the current location.
 ```shell
-cbr2cbz all
+sudo cbr2cbz all
 ```
 ### Display help text.
 ```shell
@@ -34,7 +34,7 @@ If conversion is successful, the original file(s) will be deleted.
 
 ## Dependancies:
 
-The script requires "zip" and "unrar". Please ensure they are installed before trying to run the script. A simple online search will help you with this. At a later stage I will build an install and update functionality which will do this automatically.
+The script requires "zip" and "unrar-free". Please ensure they are installed before trying to run the script. A simple online search will help you with this. At a later stage I will build an install and update functionality which will do this automatically.
 
 ## IMPORTANT NOTE
 
